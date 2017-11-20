@@ -42,6 +42,12 @@
   在virtualenv下使用import tensorflow检验，不报错即可。
   ```
 
+* 停止退出virtualenv环境
+
+  ```
+  deactivate
+  ```
+
 ## 前方有坑
 
 * python版本一定要对应
