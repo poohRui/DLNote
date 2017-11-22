@@ -19,8 +19,12 @@
   建立一个全新的 virtualenv 环境（一定要注意python版本）
 
   ````
-  virtualenv --system-site-packages -p python3 ~/tensorflow
+  virtualenv (--system-site-packages) -p python3 ~/tensorflow
   ````
+
+  > 注：如果想要从系统那里继承`python`的包结构，使用添加参数:`--system-site-packages`
+  >
+  > 如果想要一个完全干净的`python`环境，添加属性`--no-site-packages`
 
   激活virtualenv
 
